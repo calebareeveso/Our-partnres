@@ -21,18 +21,7 @@ p {
 }
 
 /* Header */
-.nav-bg {
-    background: var(--main-font-color);
-}
 
-.navbar {
-    padding: .8rem !important;
-    text-align: center;
-}
-
-.navbar-toggler {
-    background: var(--main-page-color);
-}
 
 ul {
     list-style: none;
@@ -42,9 +31,7 @@ ul {
     text-decoration: none;
 }
 
-.nav-link {
-    color: var(--main-page-color) !important;
-}
+
 
 /* Form */
 .heading {
@@ -120,11 +107,7 @@ footer {
     height: 54px;
 }
 
-@media all and (max-width: 340px) {
-    .nav-bg {
-        padding: 0;
-    }
-}
+
 
 @media all and (min-width: 576px) {
     .heading {
@@ -155,7 +138,7 @@ footer {
 
 @media all and (min-width: 1200px) {
     .navbar-brand {
-        margin-left: 120px !important;
+        margin-left: 20px !important;
     }
 
     .signup-footer img {

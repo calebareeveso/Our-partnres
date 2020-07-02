@@ -5,10 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- link css  -->
-  <link rel="stylesheet" href="assets/our partners/css/style.css">
+  <link rel="stylesheet" href="assets/our partners/css/style-p.css">
   <!-- google font poppins  -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+  <link
+      rel="shortcut icon"
+      href="./assets/img/layers.png"
+      type="image/x-icon"
+    />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -61,14 +66,36 @@
 
 
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="background-color: #010216;">
-  <a class="navbar-brand" href="index.html"><img src="assets/our partners/img/logo.svg" alt=""></a>
- 
-  <div id="collapsibleNavbar">
-    <ul class="navbar-nav ">
+
+
+<!-- end of nav bar -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">      <img
+    src="assets/our partners/img/logo.svg"
+    alt="logo"
+    class="img-fluid"
+  /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link pop" href="#">Home</a>
+      </li>
+      <li class="nav-item pop">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item pop">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li> 
+      <li class="nav-item pop">
+        <a class="nav-link" href="#">Documentation</a>
+      </li>
       <li class="nav-item pop " >
-        <a class=" pr-3 " style="color: #58BF8E;font-weight: 600;font-size: 1.3rem;" href="#">Partners</a>
-      </li>    
+        <a class="nav-link active pr-3 " style="color: #58BF8E;" href="#">Partners</a>
+      </li> 
+    
     </ul>
   </div>  
 </nav>
